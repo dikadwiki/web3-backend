@@ -1,0 +1,20 @@
+{
+  "name": "web3-dapp-backend",
+  "version": "1.0.0",
+  "description": "Web3 DApp Backend with Hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "compile": "hardhat compile",
+    "clean": "hardhat clean"
+  },
+  "keywords": ["web3", "hardhat", "ethereum", "blockchain"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.26.0"
+  }
+}
